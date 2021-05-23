@@ -2,7 +2,7 @@
 
 #### This repository contain  a demo code to connect spring with RabbitMQ
 
-## Dependency
+## Software Requirement
 
 1. ErLang
 2. RabbitMQ
@@ -21,11 +21,11 @@
 1. Install Erlang 
 2. Setup ERLANG_HOME environment upto erlang directories
 3. Install RabbitMQ
-4. Run Remove ,Install, Enable Plugin  and Start command on command prompt and Type localhost:8080/
+4. Run the command prompt as Administrator
+5. Navigate to the sbin directory and uninstall the service. rabbitmq-service remove
+6. Reinstall the service rabbitmq-service install
+7. Enable the plugins. rabbitmq-plugins enable rabbitmq_management
+8. Start the service rabbitmq-service start
+9. Go to "http://localhost:15672/"
 
-
-#### once Installed
-
-
-1. Clone the Repository
-2. Build and Run in IntelliJ  
+## Now run the code to see output.
